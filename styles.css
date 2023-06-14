@@ -1,0 +1,100 @@
+/* Estilos generales */
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #F8F8F8;
+	padding: 10px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+form button {
+	background-color: #333;
+	color: #fff
+footer .sitemap {
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+footer .sitemap h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer .sitemap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .sitemap li {
+  margin-bottom: 5px;
+}
+
+footer .sitemap a {
+  color: #666;
+  text-decoration: none;
+}
+
+footer .sitemap a:hover {
+  text-decoration: underline;
+}
